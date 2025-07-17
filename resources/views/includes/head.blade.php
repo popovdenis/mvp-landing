@@ -6,17 +6,18 @@
 
     <title>LaunchPage - Creative Landing Page Template</title>
 
+    <!-- Loading Bootstrap -->
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+
     <!-- Loading Template CSS -->
-    @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-        @vite([
-            'resources/css/bootstrap.min.css',
-            'resources/css/style.css',
-            'resources/css/animate.css',
-            'resources/css/pe-icon-7-stroke.css',
-            'resources/css/style-magnific-popup.css',
-            'resources/css/head.blade.php.css',
-        ])
-    @endif
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/pe-icon-7-stroke.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style-magnific-popup.css') }}" rel="stylesheet">
+
+
+    <!-- Awsome Fonts -->
+    <link href="{{ asset('css/all.min.css') }}" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
