@@ -7,7 +7,7 @@
         <div class="container">
 
             <!--begin logo -->
-            <a class="navbar-brand" href="#">LaunchPage</a>
+            <a class="navbar-brand" href="#">UpGreener</a>
             <!--end logo -->
 
             <!--begin navbar-toggler -->

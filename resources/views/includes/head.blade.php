@@ -4,7 +4,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
-    <title>LaunchPage - Creative Landing Page Template</title>
+    <title>UpGreener</title>
 
     <!-- Loading Bootstrap -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
