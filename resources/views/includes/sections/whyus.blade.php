@@ -1,4 +1,4 @@
-<section class="section-white">
+<section class="section-white" id="whyus">
     <!--begin container-->
     <div class="container">
         <!--begin row-->
