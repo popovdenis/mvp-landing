@@ -11,7 +11,8 @@
                 <p class="hero-text">UpGreener plugs into your existing systems to predict student dropouts, boost engagement, and audit lesson quality automatically.</p>
                 <p class="hero-text">Up to 30-50% of online students drop out  — we help you change that.</p>
 
-                <a href="#" class="btn-red small scrool">Join the Pilot Program</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScxo4TFEz2urEbvCwkbgxSC5-qdWKEP9qNk_qjnqM9YZgQGBg/viewform?usp=header"
+                   class="btn-red small scrool" target="_blank">Join the Pilot Program</a>
             </div>
             <!--end col-md-6-->
             <!--begin col-md-5-->

@@ -33,40 +33,8 @@
 @include('includes.sections.whyus')
 <!--end section-white-->
 
-<!--begin section-bg-1 -->
-{{--@include('includes.sections.fun-facts')--}}
-<!--end section-bg-1 -->
-
-<!--begin testimonials section -->
-{{--@include('includes.sections.testimonials')--}}
-<!--end testimonials section -->
-
-<!--begin section-white -->
-{{--@include('includes.sections.portfolio')--}}
-<!--end section-white -->
-
-<!--begin team section -->
-{{--@include('includes.sections.team')--}}
-<!--end team section-->
-
 <!--begin section-bg-2 -->
-{{--@include('includes.sections.award')--}}
-<!--end section-bg-2 -->
-
-<!--begin features section -->
-{{--@include('includes.sections.features')--}}
-<!--end features section -->
-
-<!--begin pricing section -->
-{{--@include('includes.sections.pricing')--}}
-<!--end pricing section -->
-
-<!--begin faq section -->
-{{--@include('includes.sections.faq')--}}
-<!--end faq section -->
-
-<!--begin section-bg-2 -->
-@include('includes.sections.contact')
+{{--@include('includes.sections.contact')--}}
 <!--end section-bg-2 -->
 
 <!--begin footer -->

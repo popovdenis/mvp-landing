@@ -10,7 +10,8 @@
 
                 <p>Now, we’re turning that experience into <strong>the AI layer every online school needs to keep students learning and growing sustainably.</strong></p>
 
-                <a href="#" class="btn-red small scrool">Get Started</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScxo4TFEz2urEbvCwkbgxSC5-qdWKEP9qNk_qjnqM9YZgQGBg/viewform?usp=header"
+                   class="btn-red small scrool" target="_blank">Get Started</a>
             </div>
             <!--end col-md-6-->
         </div>

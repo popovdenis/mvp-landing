@@ -24,7 +24,8 @@
                     <li><i class="fas fa-check"></i> Priority onboarding when we launch</li>
                 </ul>
 
-                <a href="#" class="btn-red small scrool">Apply for Pilot Access</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScxo4TFEz2urEbvCwkbgxSC5-qdWKEP9qNk_qjnqM9YZgQGBg/viewform?usp=header"
+                   class="btn-red small scrool" target="_blank">Apply for Pilot Access</a>
             </div>
             <!--end col-md-6-->
         </div>
