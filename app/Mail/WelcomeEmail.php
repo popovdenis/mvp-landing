@@ -26,7 +26,7 @@ class WelcomeEmail extends MailSender
 
     public function getTemplateId(): string
     {
-        return 'z86org8y6y0lew13';
+        return 'k68zxl2eo19lj905';
     }
 
     public function getPersonalization(): array
@@ -35,13 +35,13 @@ class WelcomeEmail extends MailSender
 
         return [
             new Personalization($to, [
-                'firstname' => $this->contact_firstname,
-                'lastname' => $this->contact_lastname,
-                'email' => $this->contact_email,
-                'contact_organisation' => $this->contact_organisation,
-                'contact_country' => $this->contact_country,
-                'contact_website' => $this->contact_website,
-                'contact_role' => $this->contact_role,
+                'contact_firstname'       => $this->contact_firstname,
+                'contact_lastname'        => $this->contact_lastname,
+                'email'                   => $this->contact_email,
+                'contact_organisation'    => $this->contact_organisation,
+                'contact_country'         => $this->contact_country,
+                'contact_website'         => $this->contact_website,
+                'contact_role'            => $this->contact_role,
                 'contact_number_students' => $this->contact_number_students,
             ]),
         ];

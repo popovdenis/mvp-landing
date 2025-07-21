@@ -22,9 +22,7 @@ class ContactController extends Controller
             'contact_number_students' => 'required|string|max:255',
         ]);
 
-        $contactForm = new ContactFormMail($validated);
-
-        Mail::to(['eugene@grn.one', 'tania.green@outlook.com.au'])->cc('denispopov2112@gmail.com')->send(
+        Mail::to('denispopov2112@gmail.com'/*, 'eugene@grn.one', 'tania.green@outlook.com.au'*/)->send(
             new WelcomeEmail(
                 contact_organisation: $validated['contact_organisation'],
                 contact_country: $validated['contact_country'],
@@ -36,8 +34,6 @@ class ContactController extends Controller
                 contact_number_students: $validated['contact_number_students'],
             )
         );
-
-//        Mail::to('denispopov2112@gmail.com')->send($contactForm);
 
         return back()->with('success', 'Email sent successfully!');
     }
