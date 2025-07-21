@@ -37,7 +37,7 @@ class WelcomeEmail extends MailSender
             new Personalization($to, [
                 'contact_firstname'       => $this->contact_firstname,
                 'contact_lastname'        => $this->contact_lastname,
-                'email'                   => $this->contact_email,
+                'contact_email'                   => $this->contact_email,
                 'contact_organisation'    => $this->contact_organisation,
                 'contact_country'         => $this->contact_country,
                 'contact_website'         => $this->contact_website,
