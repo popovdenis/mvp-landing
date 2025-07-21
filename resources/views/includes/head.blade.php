@@ -26,4 +26,5 @@
     <!-- Font Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico">
 
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
