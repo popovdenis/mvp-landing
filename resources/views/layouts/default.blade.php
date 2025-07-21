@@ -34,7 +34,7 @@
 <!--end section-white-->
 
 <!--begin section-bg-2 -->
-{{--@include('includes.sections.contact')--}}
+@include('includes.sections.contact')
 <!--end section-bg-2 -->
 
 <!--begin footer -->
