@@ -27,7 +27,7 @@
                         <!--end success message -->
 
                         <!--begin contact form -->
-                        <form id="contact-form" class="row contact-form contact" method="POST" action="{{ route('contact.submit') }}">
+                        <form id="contact-form" class="row contact-form contact" method="POST" action="https://upgreener.com/contact">
                             @csrf
                             <!--begin col-md-6-->
                             <div class="col-md-6">
