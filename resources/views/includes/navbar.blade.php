@@ -10,6 +10,6 @@
 
     <li><a href="#whyus">Why Us</a></li>
 
-    <li><a href="#contact">Contact</a></li>
+{{--    <li><a href="#contact">Contact</a></li>--}}
 
 </ul>
