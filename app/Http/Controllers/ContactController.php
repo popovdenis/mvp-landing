@@ -21,7 +21,7 @@ class ContactController extends Controller
             'contact_number_students' => 'required|string|max:255',
         ]);
 
-        $contactForm = new ContactFormMail($validated['name'], $validated['email']);
+        $contactForm = new ContactFormMail($validated);
 
         Mail::to('denispopov2112@gmail.com')->send($contactForm);
 

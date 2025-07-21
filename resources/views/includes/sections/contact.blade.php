@@ -27,8 +27,9 @@
                         <!--end success message -->
 
                         <!--begin contact form -->
-                        <form id="contact-form" class="row contact-form contact" method="POST" action="{{ route('contact.submit') }}">
-                            {{ csrf_field() }}
+                        <form action="{{ route('contact.submit') }}" method="POST" id="contact-form" class="row contact-form contact">
+                            @csrf
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             <!--begin col-md-6-->
                             <div class="col-md-6">
                                 <input class="contact-input" required="" name="contact_organisation" placeholder="Organisation Name*" type="text">
