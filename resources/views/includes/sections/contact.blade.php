@@ -28,7 +28,7 @@
 
                         <!--begin contact form -->
                         <form id="contact-form" class="row contact-form contact" method="POST" action="{{ route('contact.submit') }}">
-                            @csrf
+                            {{ csrf_field() }}
                             <!--begin col-md-6-->
                             <div class="col-md-6">
                                 <input class="contact-input" required="" name="contact_organisation" placeholder="Organisation Name*" type="text">
